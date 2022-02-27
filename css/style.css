@@ -1,0 +1,102 @@
+body {
+	height: 100vh;
+	font-family: 'Patrick Hand', cursive;
+	margin: 0;
+}
+
+.bonfire {
+	position: relative;
+	top: 0;
+	left: 0;
+	min-height: 100vh;
+	width: 100%;
+	background-color: #000;
+	background-image: url("file:///C:/Users/THUY/Desktop/Web/img/bonfire.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 10%;
+	color: white;
+}
+
+.light {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0.1;
+}
+
+@keyframes lighting {
+	0% {
+		opacity: 0.1;
+	}
+
+	50% {
+		opacity: 0.15;
+	}
+
+	0% {
+		opacity: 0.1;
+	}
+}
+
+#light {
+	animation-name: lighting;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+.gura {
+	position: fixed;
+	top: 45%;
+	left: 63%;
+	transform: translate(-50%, -50%);
+}
+
+.text {
+	position: fixed;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+
+/*.dialogue li {
+	list-style: none;
+	position: relative;
+	top: 20px;
+	padding-bottom: 5px;*/
+	/*animation: slide 6s steps(2) 1;*/
+/*}
+
+@keyframes slide {
+	100% {
+		top: -50px;
+	}
+}
+
+.dialogue li span {
+	position: relative;
+
+}
+
+.dialogue li span::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	border-left: 2px solid white;
+	animation: typing 1.2s steps(22) 1; 
+}
+
+@keyframes typing {
+	100% {
+		left: 100%;
+	}
+}*/
+

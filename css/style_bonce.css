@@ -1,0 +1,44 @@
+body {
+	height: 100vh;
+	font-family: 'Patrick Hand', cursive;
+	margin: 0;
+	background: url("file:///C:/Users/THUY/Desktop/Web/img/bon.gif");
+	background-size: cover;
+}
+
+.layout {
+	width: 100vw;
+	height: 100vh;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+	grid-template-rows: 200px 6fr 50px;
+	box-sizing: border-box;
+}
+
+/*.layout div {
+	padding: 10px;
+	border: 1px solid #000000;	
+}*/
+
+.header {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	display: grid;
+	justify-content: center;
+	font-size: 80px;
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	padding-top: 20px;
+}
+
+.body {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	display: grid;
+	justify-content: center;
+}
