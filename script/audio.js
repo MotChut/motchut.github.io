@@ -64,7 +64,7 @@ function gura() {
             taiko++
             break;
         case 23:
-            $("body").fadeOut(1000, function () { window.location.replace("file:///C:/Users/THUY/Desktop/Web/main.html") });
+            $("body").fadeOut(1000, function () { window.location.replace("main.html") });
             
             break;
     }
